@@ -3,16 +3,17 @@ A simple Python script for real-time data plot based on CoreyMSchafer tutorial.
 
 Liverplot allows the real-time plot of all or selected columns of a CSV file.
 
-# First Steps
+# Usage
+## First Steps
 (Optional) Create a virtualenv, by your preference, and jump to it.
 
 Install all dependencies using the following command
 
-> pip install requirements.txt
+> pip install -r requirements.txt
 
 Python version 3.7.7
 
-# Usage
+## Firing up
 In a Python environment, import liverplot.py, then run
 
 > liverplot.begin(data_file, x_axis)
