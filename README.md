@@ -10,6 +10,8 @@ Install all dependencies using the following command
 
 > pip install requirements.txt
 
+Python version 3.7.7
+
 # Usage
 In a Python environment, import liverplot.py, then run
 
