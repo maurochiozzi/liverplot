@@ -7,13 +7,13 @@ from matplotlib.animation import FuncAnimation as animation
 mpl.rcParams['toolbar'] = 'None'
 
 
-def begin(file_name, x_axis, file_path='', selected_columns=None, fresh_rate=100, sample=-1, figsize=(15, 6)):
+def begin(file_name, x_axis, file_path='', selected_columns=None, fresh_rate=100, sample=-1, figsize=(15, 6), sep=';'):
     fig = plt.figure(figsize=figsize)
 
     fig.canvas.set_window_title('Liverplot')
 
     def animate(i):
-        df = pd.read_csv(file_path + file_name)
+        df = pd.read_csv(file_path + file_name, sep=sep)
 
         # If user is going to plot specifc columns, he'll not pass the x_axis inside
         # selected_columns again. For this convenience, we shall add to the array
