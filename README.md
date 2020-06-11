@@ -41,3 +41,7 @@ In a Python environment, import liverplot.py, then run
 ## Data Mockup
 
 CoreyMSchafer has also developed a script to generate random values to be saved into a CSV file, which can be used to perform a live test. Get it on his [repository](https://github.com/CoreyMSchafer/code_snippets/blob/master/Python/Matplotlib/09-LiveData/data_gen.py).
+
+## Miscellaneous
+
+Wondering about the misspelt repo name? Well, it's just a pun with Liverpool :P
